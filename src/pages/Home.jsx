@@ -72,9 +72,16 @@ const Home = () => {
                     eu sollicitudin massa ligula at erat. Mauris eget dictum
                     nisi. Maecenas neque leo, lacinia at libero eget,
                     condimentum posuere mi. Pellentesque tellus nisi, posuere
+<<<<<<< HEAD
                     quis commodo eget, congue sit amet tortor.
                 </p>
                 <p>
+=======
+                    quis commodo eget, congue sit amet tortor.{' '}
+                </p>
+                <p>
+                    {' '}
+>>>>>>> upstream/main
                     Donec nec ornare orci, viverra facilisis purus. Donec
                     posuere faucibus risus quis consequat. Praesent pretium,
                     risus vel imperdiet imperdiet, quam magna feugiat mi, in
@@ -88,6 +95,7 @@ const Home = () => {
                     magna. In ante metus, consequat at libero vel, dignissim
                     iaculis nisl.
                 </p>
+<<<<<<< HEAD
                 <p>
                     Vestibulum ante ipsum primis in faucibus orci luctus et
                     ultrices posuere cubilia curae; Vivamus vitae libero
@@ -101,6 +109,10 @@ const Home = () => {
                 </p>
             </div>
             <center id="Projects">
+=======
+            </div>
+            <div>
+>>>>>>> upstream/main
                 <h1>Projects</h1>
                 {fetchError && <p>{fetchError}</p>}
                 {Projects && (
@@ -108,7 +120,11 @@ const Home = () => {
                         <ProjectCarousel images={images} />
                     </div>
                 )}
+<<<<<<< HEAD
             </center>
+=======
+            </div>
+>>>>>>> upstream/main
             <div>
                 <center>
                     <h1>Sponsorship</h1>

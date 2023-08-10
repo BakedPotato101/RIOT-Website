@@ -135,6 +135,7 @@ footer {
 
 #Projects {
     margin-top: 100px;
+
 }
 
 .sponsor {
@@ -158,6 +159,7 @@ footer {
     float: center;
     width: 225px;
     height: auto;
+
     resize: horizontal;
     border-radius: 10px;
     transition: all 0.5s;
@@ -391,6 +393,7 @@ nav a:hover {
     height: 100%;
     color: var(--white);
     background-color: var(--navy);
+
     float: right;
     cursor: pointer;
     margin-top: 13px;
@@ -764,6 +767,7 @@ div.desc {
         max-width: 100%;
         height: auto;
     }
+
 }
 @media only screen and (max-width: 600px) {
     .projectCardContainer,
@@ -776,6 +780,7 @@ div.desc {
         margin-left: 10%;
         margin-right: 10%;
     }
+
 }
 @media only screen and (max-width: 400px) {
     .battlebotSeasonCardContainer {
