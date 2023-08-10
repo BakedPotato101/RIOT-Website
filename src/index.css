@@ -218,30 +218,34 @@ footer {
     display: none;
 }
 
-#carouselContent {
+.innerSlide {
     background-color: var(--navy);
     color: var(--white);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
-
 #carouselContent img {
+    max-height: 450px;
     height: 100%;
     width: 100%;
     object-fit: contain;
     margin-top: 10px;
+    padding: 25px;
 }
-
-#carouselIMG {
-    width: 1000px;
-    height: 500px;
-}
-
-#carouselDots {
+#carouselContent p {
+    font-size: 20px;
+    margin: 0;
+    padding: 15px;
     text-align: center;
-}
-
-#carousel-container {
-    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #carousel-button {
@@ -262,16 +266,20 @@ footer {
 #carousel-button:nth-child(1) {
     left: -50px;
 }
+#carousel-button:nth-child(1):hover {
+    transform: translate(-5px, -50%) scale(1.1);
+}
 
 /* Specific to right arrow */
 #carousel-button:nth-child(3) {
     right: -50px;
 }
 
-#imgslider {
-    /* You may need some width definition here if not occupying the full width */
-    width: 100%;
+#carousel-button:nth-child(3):hover {
+    transform: translate(5px, -50%) scale(1.1);
 }
+
+
 
 .Back,
 .forward {
@@ -752,6 +760,10 @@ div.desc {
         margin-left: 20%;
         margin-right: 20%;
     }
+    #carouselIMG {
+        max-width: 100%;
+        height: auto;
+    }
 }
 @media only screen and (max-width: 600px) {
     .projectCardContainer,
@@ -763,10 +775,6 @@ div.desc {
     #prevSemesters {
         margin-left: 10%;
         margin-right: 10%;
-    }
-    #carouselIMG {
-        max-width: 100%;
-        height: auto;
     }
 }
 @media only screen and (max-width: 400px) {
